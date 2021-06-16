@@ -27,9 +27,9 @@ Load balancing ensures that the application will be highly available, in additio
 - What is the advantage of a jump box? The Jump Box provides a way for a Network Administator to access the Network and perform administrative tasks while maintaining an extremely secure entry point.
 
 Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the log files and system traffic.
-- What does Filebeat watch for? Filebeat motitors specified log files and sends them to Elasticsearch.
+- What does Filebeat watch for? Filebeat monitors specified log files and sends them to Elasticsearch.
 
-- What does Metricbeat record? Metricbeat is a lightweight shipper that will collect Operatating System and Services metrics that are running on the Web Server. Metricbeat will take these statistics and send them to Elasticsearch.
+- What does Metricbeat record? Metricbeat is a lightweight shipper that will collect Operatating System metrics and Services metrics that are running on the Web Server. Metricbeat will take these statistics and send them to Elasticsearch.
 
 The configuration details of each machine may be found below.
 
